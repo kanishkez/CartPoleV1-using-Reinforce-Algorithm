@@ -3,16 +3,13 @@
 
 This repository demonstrates solving the **CartPole-v1** environment from the Gymnasium library using the **REINFORCE Policy Gradient** algorithm. The project includes a complete implementation in Python and PyTorch.
 
+![cartpole](https://github.com/user-attachments/assets/9f6c694c-49f5-456f-8da7-c8722cb4d2d8)
+
+
 
 ## Overview
 
 The goal of the **CartPole-v1** environment is to balance a pole on a moving cart by applying forces left or right. This project uses the **REINFORCE Policy Gradient** method, which is a Monte Carlo-based policy gradient algorithm to learn the optimal policy.  
-
-Key features:  
-- Policy network implemented using PyTorch.  
-- Stochastic policy output using softmax.  
-- Reward discounting with a configurable gamma factor.  
-- Training visualization using reward curves.
 
 
 ## Algorithm
@@ -53,6 +50,8 @@ Inference:
 python cartpoleinference.py
 ```
 
+Note:
+Repository also contains the .pth file that contains the weights of the trained model.
 Options:
 - Modify hyperparameters like learning rate, gamma, or hidden layers in train_cartpole.py.
 - Enable plotting of rewards for monitoring convergence.
