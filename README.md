@@ -27,11 +27,11 @@ Steps:
    - Compute discounted returns.  
    - Update policy parameters θ using gradient ascent:  
 
-$\[\theta \leftarrow \theta + \alpha \sum_{t} \nabla_\theta \log \pi_\theta(a_t|s_t) G_t\$
+$\[\theta \leftarrow \theta + \alpha \sum_{t} \nabla_\theta \log \pi_\theta(a_t|s_t) G_t]\$
 
 Where:  
-- \(G_t\) is the discounted return from time step \(t\).  
-- \(\pi_\theta(a_t|s_t)\) is the policy probability of taking action \(a_t\) in state \(s_t\).
+- $\(G_t\)$ is the discounted return from time step $\(t\)$.  
+- $\(\pi_\theta(a_t|s_t)\)$ is the policy probability of taking action $\(a_t\)$ in state $\(s_t\)$.
 
 
 ## Requirements
