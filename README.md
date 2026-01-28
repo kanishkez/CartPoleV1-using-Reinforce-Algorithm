@@ -54,11 +54,11 @@ python cartpoleinference.py
 ```
 
 Options:
-	•	Modify hyperparameters like learning rate, gamma, or hidden layers in train_cartpole.py.
-	•	Enable plotting of rewards for monitoring convergence.
+- Modify hyperparameters like learning rate, gamma, or hidden layers in train_cartpole.py.
+- Enable plotting of rewards for monitoring convergence.
 
 
 Results
-	•	The model typically solves CartPole-v1 within 500–1500 episodes.
-	•	The average reward per episode converges to ≥ 195, which is considered solved according to OpenAI Gym standards.
-	•	Example training curve:
+- The model typically solves CartPole-v1 within 500–1500 episodes.
+- The average reward per episode converges to ≥ 195, which is considered solved according to OpenAI Gym standards.
+- Example training curve:
